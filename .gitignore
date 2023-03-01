@@ -1,0 +1,21 @@
+node_modules
+
+#Hardhat files
+cache
+
+#Remix files
+*_metadata.json
+build-info
+*.dbg.json
+
+.env
+deployments/localhost
+deployments/hardhat
+bin
+.DS_Store
+package-lock.json
+artifacts
+*.zip
+*.csv
+*.uu
+.deps
