@@ -80,7 +80,7 @@ contract HeroNFT is
         __ReentrancyGuard_init();
         TIME_LOCK_TRANSFER = 3600 * 48;
         whitelistAddresses[address(0)] = true;
-        _uri = "https://meta.hellven.io/hero/";
+        _uri = "https://metadata.hellven.io/hero/";
     }
 
     function setBaseURI(string memory uri) public virtual onlyAdmin {

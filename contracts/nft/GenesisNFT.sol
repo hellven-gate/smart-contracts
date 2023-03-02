@@ -55,7 +55,7 @@ contract GenesisNFT is
 
         _setupRole(DEFAULT_ADMIN_ROLE, _msgSender());
         _setupRole(SIGNER_ROLE, _msgSender());
-        __baseURI = "https://meta.hellven.io/genesis/";
+        __baseURI = "https://metadata.hellven.io/genesis/";
     }
 
     function mint(address to) public virtual onlySigner {
